@@ -6,9 +6,9 @@ import lombok.NoArgsConstructor;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
-import static lombok.AccessLevel.PRIVATE;
+import static lombok.AccessLevel.PROTECTED;
 
-@NoArgsConstructor(access = PRIVATE)
+@NoArgsConstructor(access = PROTECTED)
 public class BaseConfigurationTest {
 
     protected static Playwright playwright;
